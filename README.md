@@ -1,20 +1,27 @@
-# Learn Volleyball
+# 🏐 Learn Volleyball
 
-A beginner's guide to volleyball basics.
+A free, interactive website that teaches volleyball across three levels: **Basics**, **Medium**, and **Hard**.
 
-## Basic Rules
-- Each team has 6 players on the court
-- The ball must go over the net within 3 touches per team
-- Points are scored when the ball hits the opponent's floor, or they commit a fault
+## What's inside
 
-## Key Skills
-- **Serving** – starting play by hitting the ball over the net
-- **Passing (Bumping)** – using your forearms to control the ball
-- **Setting** – using your fingertips to set up a teammate for an attack
-- **Spiking** – hitting the ball hard into the opponent's court
-- **Blocking** – jumping at the net to stop an opponent's attack
+- **🟢 Basics** – the rules, court & positions, and core skills (underhand serve, forearm pass) plus beginner drills.
+- **🟡 Medium** – rotations, setting, spiking, blocking, overhand serving, and intermediate drills.
+- **🔴 Hard** – offensive/defensive systems, jump serves, advanced attacking, reading the game, and advanced drills.
+- **Quiz** – a 7-question interactive quiz to test what you've learned.
 
-## Practice Drills
-- Wall passing drills to improve control
-- Partner serving practice
-- Setting against a wall or with a partner
+## Running it
+
+It's a static site — no build step. Just open `index.html` in a browser, or serve the folder:
+
+```bash
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
+
+## Files
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Page structure and all lesson content |
+| `styles.css` | Styling, layout, and responsive design |
+| `script.js` | Mobile nav + interactive quiz logic |
